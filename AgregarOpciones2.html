@@ -1,0 +1,45 @@
+<HTML>
+<HEAD>
+<style type="text/css">
+#calculator {
+  width: 410px;
+}
+ 
+#calculator label {
+    display: block;
+    margin-top: 0.8em;
+}
+ 
+#result strong {
+    display: block;
+}
+</style>
+<script type="text/javascript" src="AgregarOpciones2.js"></script>
+<title>Agregar Opciones</title>
+</HEAD>
+ 
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#800080" ALINK="#FF0000">
+<div align="center">
+ 
+<form>
+        <select id="selector" multiple="multiple" onChange="ddlselect()" size="6" style="width:200px;">
+            <option>item 1</option>
+            <option>item 2</option>
+            <option>item 3 (No Sub-Items)</option>
+            <option>item 4</option>
+            <option>item 5 (No Sub-Items)</option>
+            <option>item 6</option>         
+        </select> 
+        <br>Select: 
+        <a href="javascript:selectAll('lstStuff', true);">all</a> |
+        <a href="javascript:selectAll('lstStuff', false);">none</a>
+        <p>
+		<input  type="text" id="SoloLec" size="38"></p>
+  
+</form>
+<br>
+</div>
+ 
+ 
+</BODY>
+</HTML>
